@@ -86,16 +86,28 @@
 // System.Console.WriteLine($"Итоговая сумма {sum}");   
 // }
 
-System.Console.WriteLine("Введите координату X точки А: ");
-int korXA = int.Parse(Console.ReadLine());
-System.Console.WriteLine("Введите координату Y точки A: ");
-int korYA = int.Parse(Console.ReadLine());
-System.Console.WriteLine("Введите координату X точки B: ");
-int korXB = int.Parse(Console.ReadLine());
-System.Console.WriteLine("Введите координату Y точки B: ");
-int korYB = int.Parse(Console.ReadLine());
+// задача 3
 
-double rastAB = Math.Sqrt((korXB - korXA)*(korXB - korXA) + (korYB - korYA)*(korYB - korYA));
+// System.Console.WriteLine("Введите координату X точки А: ");
+// int korXA = int.Parse(Console.ReadLine());
+// System.Console.WriteLine("Введите координату Y точки A: ");
+// int korYA = int.Parse(Console.ReadLine());
+// System.Console.WriteLine("Введите координату X точки B: ");
+// int korXB = int.Parse(Console.ReadLine());
+// System.Console.WriteLine("Введите координату Y точки B: ");
+// int korYB = int.Parse(Console.ReadLine());
 
-Console.WriteLine($"Расстояние между точками АВ {rastAB}");
+// double rastAB = Math.Sqrt((korXB - korXA)*(korXB - korXA) + (korYB - korYA)*(korYB - korYA));
 
+// Console.WriteLine($"Расстояние между точками АВ {rastAB}");
+
+
+// задача 4
+
+System.Console.WriteLine("Введите число: ");
+int num = int.Parse(Console.ReadLine());
+
+for (int i = 1; i <= num; i++)
+{
+    Console.Write($" {i*i}");
+}
