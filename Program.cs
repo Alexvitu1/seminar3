@@ -86,5 +86,16 @@
 // System.Console.WriteLine($"Итоговая сумма {sum}");   
 // }
 
+System.Console.WriteLine("Введите координату X точки А: ");
+int korXA = int.Parse(Console.ReadLine());
+System.Console.WriteLine("Введите координату Y точки A: ");
+int korYA = int.Parse(Console.ReadLine());
+System.Console.WriteLine("Введите координату X точки B: ");
+int korXB = int.Parse(Console.ReadLine());
+System.Console.WriteLine("Введите координату Y точки B: ");
+int korYB = int.Parse(Console.ReadLine());
 
+double rastAB = Math.Sqrt((korXB - korXA)*(korXB - korXA) + (korYB - korYA)*(korYB - korYA));
+
+Console.WriteLine($"Расстояние между точками АВ {rastAB}");
 
