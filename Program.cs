@@ -21,31 +21,51 @@
 // System.Console.WriteLine("Секция 4");
 // }
 
-System.Console.Write("Введите номер секции : ");
-int section = int.Parse(Console.ReadLine());
+// System.Console.Write("Введите номер секции : ");
+// int section = int.Parse(Console.ReadLine());
 
-if (section == 1)
-{
-    System.Console.Write("X > 0 и Y > 0");
-}
-else if (section == 2)
-{
-    System.Console.Write("X < 0 и Y > 0");
-}
-else if (section == 3)
-{
-    System.Console.Write("X < 0 и Y < 0");
-}
-else if (section == 4)
-{
-    System.Console.Write("X > 0 и Y > 0");
-}
-else{
-    System.Console.Write("Вы ввели неправильный номер секции");
+// if (section == 1)
+// {
+//     System.Console.Write("X > 0 и Y > 0");
+// }
+// else if (section == 2)
+// {
+//     System.Console.Write("X < 0 и Y > 0");
+// }
+// else if (section == 3)
+// {
+//     System.Console.Write("X < 0 и Y < 0");
+// }
+// else if (section == 4)
+// {
+//     System.Console.Write("X > 0 и Y > 0");
+// }
+// else{
+//     System.Console.Write("Вы ввели неправильный номер секции");
+// }
+ System.Console.Write("Введите номер секции : ");
+ int section = int.Parse(Console.ReadLine());
 
+switch (section)
+{
+    case 1:
+    System.Console.WriteLine("X > 0 и Y > 0");
+    break;
+    case 2:
+    System.Console.WriteLine("X < 0 и Y > 0");
+    break;    
+    case 3:
+    System.Console.WriteLine("X < 0 и Y < 0");
+    break;    
+    case 4:
+    System.Console.WriteLine("X > 0 и Y < 0");
+    break;
+    default:
+    System.Console.WriteLine("Вы ввели неправильный номер секции");
+    break;
+    
 
 }
-
 
 
 
