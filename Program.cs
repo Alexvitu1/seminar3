@@ -43,31 +43,48 @@
 // else{
 //     System.Console.Write("Вы ввели неправильный номер секции");
 // }
- System.Console.Write("Введите номер секции : ");
- int section = int.Parse(Console.ReadLine());
+//  System.Console.Write("Введите номер секции : ");
+//  int section = int.Parse(Console.ReadLine());
 
-switch (section)
-{
-    case 1:
-    System.Console.WriteLine("X > 0 и Y > 0");
-    break;
-    case 2:
-    System.Console.WriteLine("X < 0 и Y > 0");
-    break;    
-    case 3:
-    System.Console.WriteLine("X < 0 и Y < 0");
-    break;    
-    case 4:
-    System.Console.WriteLine("X > 0 и Y < 0");
-    break;
-    default:
-    System.Console.WriteLine("Вы ввели неправильный номер секции");
-    break;
-    
+// switch (section)
+// {
+//     case 1:
+//     System.Console.WriteLine("X > 0 и Y > 0");
+//     break;
+//     case 2:
+//     System.Console.WriteLine("X < 0 и Y > 0");
+//     break;    
+//     case 3:
+//     System.Console.WriteLine("X < 0 и Y < 0");
+//     break;    
+//     case 4:
+//     System.Console.WriteLine("X > 0 и Y < 0");
+//     break;
+//     default:
+//     System.Console.WriteLine("Вы ввели неправильный номер секции");
+//     break;
+// }
 
-}
+// System.Console.WriteLine("Введите сумму вклада: ");
+// double sum = Convert.ToDouble(Console.ReadLine());
+// if (sum <= 100)
+// {
+//     sum = sum*1.05;
 
+// System.Console.WriteLine($"Итоговая сумма {sum}");
+// }
+// else if (sum > 100 && sum < 200)
+// {
+//      sum = sum*1.07;
 
+// System.Console.WriteLine($"Итоговая сумма {sum}");   
+// }
+// else if (sum >= 200)
+// {
+//      sum = sum*1.1;
+
+// System.Console.WriteLine($"Итоговая сумма {sum}");   
+// }
 
 
 
